@@ -5,25 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Uspomene</title>
     <style>
-        * { box-sizing: border-box; }
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #000;
-            color: white;
-            font-family: sans-serif;
-            overflow: hidden;
-        }
-        .header {
-            position: absolute;
-            top: 20px;
-            width: 100%;
-            text-align: center;
-            z-index: 10;
-            letter-spacing: 5px;
-            font-size: 1.2rem;
-            opacity: 0.7;
-        }
+        body { margin: 0; background: #000; overflow: hidden; font-family: sans-serif; }
         .swipe-container {
             display: flex;
             overflow-x: auto;
@@ -43,26 +25,10 @@
             justify-content: center;
             scroll-snap-align: center;
         }
-        img {
-            max-width: 100%;
-            max-height: 90vh;
-            object-fit: contain;
-        }
-        .hint {
-            position: absolute;
-            bottom: 20px;
-            width: 100%;
-            text-align: center;
-            font-size: 0.7rem;
-            opacity: 0.4;
-            letter-spacing: 2px;
-        }
+        img { max-width: 100%; max-height: 95vh; object-fit: contain; }
     </style>
 </head>
 <body>
-
-    <div class="header">USPOMENE</div>
-
     <div class="swipe-container">
         <div class="slide"><img src="1000000937.jpg"></div>
         <div class="slide"><img src="1000000942.jpg"></div>
@@ -88,8 +54,5 @@
         <div class="slide"><img src="1000007607.jpg"></div>
         <div class="slide"><img src="1000007624.jpg"></div>
     </div>
-
-    <div class="hint">POVUCI LIJEVO / DESNO</div>
-
 </body>
 </html>
